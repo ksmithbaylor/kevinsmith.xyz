@@ -1,0 +1,8 @@
+/* Hide page until fonts are completely loaded */
+body {
+  opacity: 0;
+  transition: opacity 50ms ease-in-out;
+}
+.wf-active body {
+  opacity: 1;
+}

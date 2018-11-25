@@ -2,9 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
-
 import Header from './header'
-import './layout.css'
+
+// Needed for hot-reloading typography changes, should remove in the future.
+import typography from '~/utils/typography' // eslint-disable-line no-unused-vars
 
 const Layout = ({ children }) => (
   <StaticQuery
