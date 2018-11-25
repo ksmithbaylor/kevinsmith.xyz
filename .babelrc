@@ -9,14 +9,18 @@
       }
     ]
   ],
-  "plugins": [
-    [
-      "module-resolver",
-      {
-        "alias": {
-          "~": "./src"
-        }
-      }
-    ]
-  ]
+  "env": {
+    "production": {
+      "plugins": [
+        ["emotion", { "hoist": true }],
+        ["module-resolver", { "alias": { "~": "./src" } }]
+      ]
+    },
+    "development": {
+      "plugins": [
+        ["emotion", { "sourceMap": true, "autoLabel": true }],
+        ["module-resolver", { "alias": { "~": "./src" } }]
+      ]
+    }
+  }
 }
