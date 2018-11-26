@@ -6,3 +6,7 @@ body {
 .wf-active body {
   opacity: 1;
 }
+
+* {
+  box-sizing: border-box;
+}

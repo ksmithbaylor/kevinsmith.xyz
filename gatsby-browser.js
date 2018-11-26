@@ -1,4 +1,5 @@
 import WebFont from 'webfontloader'
+import 'normalize.css'
 import './src/index.css'
 
 export function onInitialClientRender() {
