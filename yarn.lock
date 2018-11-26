@@ -5271,6 +5271,11 @@ follow-redirects@^1.0.0:
   dependencies:
     debug "=3.1.0"
 
+fontfaceobserver@^2.0.13:
+  version "2.0.13"
+  resolved "https://registry.yarnpkg.com/fontfaceobserver/-/fontfaceobserver-2.0.13.tgz#47adbb343261eda98cb44db2152196ff124d3221"
+  integrity sha1-R627NDJh7amMtE2yFSGW/xJNMiE=
+
 for-each@^0.3.2:
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/for-each/-/for-each-0.3.3.tgz#69b447e88a0a5d32c3e7084f3f1710034b21376e"
@@ -11793,16 +11798,6 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typeface-nanum-gothic@^0.0.63:
-  version "0.0.63"
-  resolved "https://registry.yarnpkg.com/typeface-nanum-gothic/-/typeface-nanum-gothic-0.0.63.tgz#9f31b273dd70ca8d29795e5a6ee5d40ee9ba4589"
-  integrity sha512-9pH1spu+G1757w1cbSSs68sptLtu97AH2WiWkY1kkpfbFo9iIGJPJSsal78MG3Bbl2ZGI29D80kSdolymNpowA==
-
-typeface-overlock@^0.0.54:
-  version "0.0.54"
-  resolved "https://registry.yarnpkg.com/typeface-overlock/-/typeface-overlock-0.0.54.tgz#b78da5dc04b71438121193b0d47680d1825b9939"
-  integrity sha512-uFwXIgYmQefj3/Gwps+70RLnFs5gqsYidu8UzM/93Bv8ivXoHD8QI/M7ViPeipV0i/dDVV85CopZO0GMCXSghQ==
-
 typography-normalize@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/typography-normalize/-/typography-normalize-0.14.0.tgz#1d77c1fe2aaf4a51b3673c4c85c85a65a2d4b573"
@@ -12228,11 +12223,6 @@ wbuf@^1.1.0, wbuf@^1.7.2:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
-
-webfontloader@^1.6.28:
-  version "1.6.28"
-  resolved "https://registry.yarnpkg.com/webfontloader/-/webfontloader-1.6.28.tgz#db786129253cb6e8eae54c2fb05f870af6675bae"
-  integrity sha1-23hhKSU8tujq5UwvsF+HCvZnW64=
 
 webpack-dev-middleware@3.4.0, webpack-dev-middleware@^3.0.1:
   version "3.4.0"

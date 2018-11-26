@@ -8,6 +8,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "emotion": "^9.2.12",
     "emotion-server": "^9.2.12",
+    "fontfaceobserver": "^2.0.13",
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
     "gatsby-plugin-emotion": "^2.0.6",
@@ -24,10 +25,7 @@
     "react-emotion": "^9.2.12",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.13",
-    "typeface-nanum-gothic": "^0.0.63",
-    "typeface-overlock": "^0.0.54",
-    "typography": "^0.16.17",
-    "webfontloader": "^1.6.28"
+    "typography": "^0.16.17"
   },
   "keywords": [
     "gatsby"

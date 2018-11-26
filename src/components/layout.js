@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 
 // Needed for hot-reloading typography changes, should remove in the future.
-import typography from '~/utils/typography' // eslint-disable-line no-unused-vars
+import typography from '~/typography' // eslint-disable-line no-unused-vars
 
 const Layout = ({ children }) => (
   <StaticQuery

@@ -1,0 +1,125 @@
+/* overlock-400normal - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Overlock';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src:
+    local('Overlock Regular '),
+    local('Overlock-Regular'),
+    url('/fonts/overlock-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/overlock-latin-400.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overlock-400italic - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Overlock';
+  font-style: italic;
+  font-display: block;
+  font-weight: 400;
+  src:
+    local('Overlock Regular italic'),
+    local('Overlock-Regularitalic'),
+    url('/fonts/overlock-latin-400italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/overlock-latin-400italic.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overlock-700normal - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Overlock';
+  font-style: normal;
+  font-display: block;
+  font-weight: 700;
+  src:
+    local('Overlock Bold '),
+    local('Overlock-Bold'),
+    url('/fonts/overlock-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/overlock-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overlock-700italic - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Overlock';
+  font-style: italic;
+  font-display: block;
+  font-weight: 700;
+  src:
+    local('Overlock Bold italic'),
+    local('Overlock-Bolditalic'),
+    url('/fonts/overlock-latin-700italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/overlock-latin-700italic.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overlock-900normal - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Overlock';
+  font-style: normal;
+  font-display: block;
+  font-weight: 900;
+  src:
+    local('Overlock Black '),
+    local('Overlock-Black'),
+    url('/fonts/overlock-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/overlock-latin-900.woff') format('woff'); /* Modern Browsers */
+}
+
+/* overlock-900italic - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Overlock';
+  font-style: italic;
+  font-display: block;
+  font-weight: 900;
+  src:
+    local('Overlock Black italic'),
+    local('Overlock-Blackitalic'),
+    url('/fonts/overlock-latin-900italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/overlock-latin-900italic.woff') format('woff'); /* Modern Browsers */
+}
+
+/* nanum-gothic-400normal - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 400;
+  src:
+    local('Nanum Gothic Regular '),
+    local('Nanum Gothic-Regular'),
+    url('/fonts/nanum-gothic-latin-400.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/nanum-gothic-latin-400.woff') format('woff'); /* Modern Browsers */
+}
+
+/* nanum-gothic-700normal - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 700;
+  src:
+    local('Nanum Gothic Bold '),
+    local('Nanum Gothic-Bold'),
+    url('/fonts/nanum-gothic-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/nanum-gothic-latin-700.woff') format('woff'); /* Modern Browsers */
+}
+
+/* nanum-gothic-800normal - latin */
+/* prettier-ignore */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-display: block;
+  font-weight: 800;
+  src:
+    local('Nanum Gothic ExtraBold '),
+    local('Nanum Gothic-ExtraBold'),
+    url('/fonts/nanum-gothic-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('/fonts/nanum-gothic-latin-800.woff') format('woff'); /* Modern Browsers */
+}

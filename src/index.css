@@ -1,12 +1,26 @@
-/* Hide page until fonts are completely loaded */
-body {
-  opacity: 0;
-  transition: opacity 50ms ease-in-out;
-}
-.wf-active body {
-  opacity: 1;
+/* General */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-kerning: normal;
+  -moz-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 * {
   box-sizing: border-box;
+}
+
+/* Hide page until fonts are completely loaded */
+body {
+  opacity: 0;
+  transition: opacity 150ms ease-in-out;
+}
+.fonts-loaded body {
+  opacity: 1;
 }

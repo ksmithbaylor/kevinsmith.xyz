@@ -1,16 +1,21 @@
-import WebFont from 'webfontloader'
+import FontFaceObserver from 'fontfaceobserver'
 import 'normalize.css'
+import './src/typography/fonts.css'
 import './src/index.css'
 
-export function onInitialClientRender() {
-  // Declare the fonts we are waiting for
-  WebFont.load({
-    custom: {
-      families: ['Overlock:400,700', 'Nanum Gothic:400,700']
-    }
-  })
+const fonts = [
+  new FontFaceObserver('Overlock', { weight: 400 }),
+  new FontFaceObserver('Overlock', { weight: 700 }),
+  new FontFaceObserver('Nanum Gothic', { weight: 400 }),
+  new FontFaceObserver('Nanum Gothic', { weight: 700 })
+]
 
-  // Load the fonts!
-  require('typeface-overlock')
-  require('typeface-nanum-gothic')
+export function onInitialClientRender() {
+  Promise.all(fonts.map(font => font.load()))
+    .then(() => {
+      document.documentElement.className += ' fonts-loaded'
+    })
+    .catch(err => {
+      console.error(err)
+    })
 }
