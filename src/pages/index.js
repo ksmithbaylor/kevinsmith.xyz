@@ -9,7 +9,7 @@ export default () => (
     <JBlocker />
     <Nav>
       <NavLink to="/sample">Home</NavLink>
-      <NavLink to="/sample">Articles</NavLink>
+      <NavLink to="/sample">Thoughts</NavLink>
       <NavLink to="/sample">Projects</NavLink>
       <NavLink to="/sample">Bio</NavLink>
       <NavLink to="/sample">Consulting</NavLink>
