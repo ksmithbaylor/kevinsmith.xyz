@@ -68,6 +68,7 @@ const Nav = styled.div`
   width: calc(${UNDERLINE_WIDTH} - 0.08em);
   display: flex;
   justify-content: space-between;
+  margin-top: 0.06em;
   z-index: 4;
 `
 
